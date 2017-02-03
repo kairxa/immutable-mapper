@@ -1,0 +1,32 @@
+{
+  "name": "immutable-mapper",
+  "version": "1.0.0",
+  "description": "Mapping two Immutable objects into one based on sets defined.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kairxa/immutable-mapper.git"
+  },
+  "keywords": [
+    "immutable",
+    "mapper"
+  ],
+  "author": "Putra Prawira Tanzil (kairxa@worksinmagic.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kairxa/immutable-mapper/issues"
+  },
+  "homepage": "https://github.com/kairxa/immutable-mapper#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "immutable": "^3.8.1",
+    "jest": "^18.1.0",
+    "normalizr": "^3.1.0"
+  },
+  "peerDependencies": {
+    "immutable": "^3.8.1"
+  }
+}
